@@ -1,0 +1,9 @@
+/* [:VIM_EVAL:]@%[:END_EVAL:] */
+
+
+
+int main(int argc, char* argv[])
+{
+	
+	return 0;
+}
