@@ -14,6 +14,8 @@ set linebreak
 set hlsearch
 set splitbelow
 set splitright
+set listchars=tab:––,trail:·,extends:>,precedes:<,nbsp:·
+set list
 
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-L>
