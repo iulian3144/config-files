@@ -1,8 +1,14 @@
-# vim
-## Installation
-Copy files from vim dir to your home dir.
+# About
+This repo contains some configuration files for configuring some applications the way I like.
+It also contains some scripts for automating the installation of some often used application.
 
-# bash
-## Installation
-Copy files from bash dir to your home dir.
+# Content
+## config
+A directory containing different config file
+
+## scripts
+A directory containing some scripts for automating installation of some applications that are often used
+
+# Change log
+**`26012017`**` - restructure directory and add scripts for installing extra stuff`
 
