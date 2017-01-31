@@ -1,0 +1,12 @@
+[
+    { "keys": ["shift+alt+d"], "command": "set_setting", "args": { "setting": "draw_white_space", "value": "all" }},
+    { "keys": ["shift+alt+a"], "command": "set_setting", "args": {"setting": "draw_white_space", "value": "selection" }},
+
+    { "keys": ["ctrl+tab"], "command": "next_view" },
+    { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+
+    { "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["f2"], "command": "side_bar_move" },
+    { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
+]
