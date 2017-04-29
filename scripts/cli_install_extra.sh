@@ -12,9 +12,14 @@ sudo apt-get -y build-essential cmake
 # File archivers
 sudo apt-get -y p7zip p7zip-full unrar-free unzip
 
+# Terminal emulator
+sudo apt-get -y install terminator
+
 # Text editors
 sudo apt-get -y install vim
 
+# Python package manager
+sudo apt-get -y install pip
 
 # Git
 sudo apt-get -y install git

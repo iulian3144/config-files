@@ -14,13 +14,16 @@ wget -P "/tmp/" "https://download.sublimetext.com/sublime-text_build-3126_amd64.
 sudo dpkg -i "/tmp/sublime-text_build-3126_amd64.deb"
 
 # diff tool - Meld
-sudo apt-get -y meld
+sudo apt-get -y install meld
 
 # Graphics
 sudo apt-get install -y blender gimp
 
+# VLC player
+sudo apt-get -y install vlc
+
 # Skype
-wget -P /tmp -O "skype-ubuntu-precise_4.3.0.37-1_i386.deb" "https://get.skype.com/go/getskype-linux-beta-ubuntu-64"
-sudo dpkg -i "/tmp/skype-ubuntu-precise_4.3.0.37-1_i386.deb"
+wget -P /tmp -O "skype_linux.deb" "https://go.skype.com/linux.deb"
+sudo dpkg -i "skype_linux.deb"
 
 # TODO: something else may need to be added
