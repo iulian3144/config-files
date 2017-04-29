@@ -1,0 +1,16 @@
+### Added/modified keyboard shortcuts
+- Editor tabs -> Close: <kbd>Ctrl+W</kbd>
+- Go to file: <kbd>Ctrl+P</kbd>
+- Go to action: <kbd>Shift+Ctrl+P</kbd>
+- Select next occurrence: <kbd>Ctrl+D</kbd>
+- Clone caret above: <kbd>Shift+Alt+Up</kbd>
+- Clone caret below: <kbd>Shift+Alt+Down</kbd>
+- Move line up: <kbd>Ctrl+Shift+Up</kbd>
+- Move line down: <kbd>Ctrl+Shift+Down</kbd>
+- Delete line: <kbd>Shift+Ctrl+K</kbd>
+- Duplicate line: <kbd>Shift+Ctrl+D</kbd>
+- Indent line or selection: <kbd>Ctrl+]</kbd>
+- Indent line or selection: <kbd>Ctrl+[</kbd> or <kbd>Shift+Tab</kbd>
+- New folder: <kbd>Alt+Insert</kbd>
+- File -> New...: <kbd>Ctrl+N</kbd>
+- Jump to Navigation bar: <kbd>Ctrl+Alt+Q</kbd>
