@@ -60,7 +60,11 @@
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="ParameterInfo" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
   <action id="Replace" />
+  <action id="RerunTests" />
   <action id="ResetColumnsWidth" />
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
