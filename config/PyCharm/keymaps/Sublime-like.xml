@@ -1,4 +1,8 @@
 <keymap version="1" name="Sublime-like" parent="$default">
+  <action id="ActivateAndroidMonitorToolWindow">
+    <keyboard-shortcut first-keystroke="alt 6" />
+  </action>
+  <action id="ActivateTODOToolWindow" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
@@ -73,6 +77,7 @@
   </action>
   <action id="SendEOF" />
   <action id="ShelvedChanges.Diff" />
+  <action id="ShowBookmarks" />
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="ctrl alt q" />
   </action>
@@ -90,6 +95,13 @@
   </action>
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="ToggleBookmark" />
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="shift f11" />
+  </action>
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="f11" />
   </action>
   <action id="Uml.ShowDiff" />
   <action id="Vcs.Push" />
