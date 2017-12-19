@@ -137,27 +137,6 @@ function getGitBranch()
     fi
 }
 
-export CWD_MAXWIDTH=$(($(tput cols) - 26))
-export CWD_MINWIDTH=$(($CWD_MAXWIDTH-3))
-
-function set_CWDWIDTH()
-{
-    CWD_MAXWIDTH=$(($(tput cols) - 26))
-    CWD_MINWIDTH=$((CWD_MAXWIDTH-3))
-    # /home/ipaun1/.resizing
-}
-function getcwd()
-{
-    string=$(pwd)
-    if (( ${#string} >= CWD_MAXWIDTH )); then
-        echo "...${string: -${CWD_MINWIDTH}}"
-    else
-        echo "$string"
-    fi
-}
-# set trap function for SIGWINCH (resizing the terminal)
-trap 'set_CWDWIDTH' SIGWINCH
-
 # Personalized prompt
 # PS1='[\[\e[1;31m\]\u\e[0m]@[\e[1;32m\h\e[0m]:[\e[1;33m$(pwd)\e[0m]\n\$ '
 
