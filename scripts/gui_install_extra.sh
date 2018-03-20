@@ -10,20 +10,20 @@ sudo apt-get -y autoremove
 sudo apt-get -y terminator
 
 # Sublime text
-wget -P "/tmp/" "https://download.sublimetext.com/sublime-text_build-3126_amd64.deb"
-sudo dpkg -i "/tmp/sublime-text_build-3126_amd64.deb"
+wget -P "/tmp/" "https://download.sublimetext.com/sublime-text_build-3143_amd64.deb"
+sudo dpkg -i "/tmp/sublime-text_build-3143_amd64.deb"
 
 # diff tool - Meld
 sudo apt-get -y install meld
 
 # Graphics
-sudo apt-get install -y blender gimp
+sudo apt-get install -y gimp
 
 # VLC player
 sudo apt-get -y install vlc
 
 # Skype
-wget -P /tmp -O "skype_linux.deb" "https://go.skype.com/linux.deb"
-sudo dpkg -i "skype_linux.deb"
+wget -P /tmp -O "skypeforlinux.deb" "https://go.skype.com/skypeforlinux-64.deb"
+sudo dpkg -i "skypeforlinux.deb"
 
 # TODO: something else may need to be added
