@@ -1,0 +1,35 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Awk",
+		"Bison",
+		"Boxy Theme",
+		"C Improved",
+		"CTags",
+		"Emmet",
+		"Emmet Css Snippets",
+		"File Navigator",
+		"HexViewer",
+		"HTML-CSS-JS Prettify",
+		"HTMLBeautify",
+		"Jedi - Python autocompletion",
+		"Laravel Blade Highlighter",
+		"MarkdownPreview",
+		"NASM x86 Assembly",
+		"Package Control",
+		"Prolog",
+		"SideBarEnhancements",
+		"StringUtilities",
+		"SublimeAStyleFormatter"
+	],
+	"repositories":
+	[
+		"https://github.com/timonwong/SublimeAStyleFormatter.git",
+		"https://github.com/timonwong/SublimeAStyleFormatter.git"
+	]
+}

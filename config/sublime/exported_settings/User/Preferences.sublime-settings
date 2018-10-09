@@ -1,0 +1,78 @@
+{
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 1,
+	"caret_extra_top": 1,
+	"caret_extra_width": 1,
+	"caret_style": "blink",
+	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme",
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace",
+		"*.axf"
+	],
+	"font_face": "FiraCode",
+	"font_size": 9,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"HTML-CSS-JS Prettify",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"match_brackets": true,
+	"match_brackets_angle": true,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
+	"match_tags": true,
+	"overlay_scroll_bars": "enabled",
+	"rulers":
+	[
+		80,
+		100,
+		120
+	],
+	"show_encoding": true,
+	"show_line_endings": true,
+	"theme": "Boxy Tomorrow.sublime-theme",
+	"theme_find_panel_atomized": true,
+	"theme_find_panel_font_xs": true,
+	"theme_find_panel_size_xxs": true,
+	"theme_scrollbar_colored": true,
+	"theme_tab_mouse_wheel_switch": true,
+	"theme_tab_selected_overlined": true,
+	"theme_tab_separator": true,
+	"theme_tabset_line_visible": true,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}
