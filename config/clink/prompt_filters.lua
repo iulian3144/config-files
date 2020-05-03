@@ -156,8 +156,11 @@ local function truncate_cwd(cwd, maxwidth)
   -- element (e.g. drive letter); otherwise, simply join the drive letter to the cwd.
   if i_cwd > 1 then
     cwd = cwd_parts[1] .. "\\...\\" .. cwd
-  else  -- i_cwd == 1
+  elseif i_cwd == 1 then
     cwd = cwd_parts[1] .. "\\" .. cwd
+  else
+    -- This should mean that we're in the drive's root (i_cwd == 0) so the cwd
+    -- is already correct
   end
 
   return cwd
