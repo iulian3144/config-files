@@ -1,11 +1,10 @@
 import sys
 import time
 
-TIMESTAMP_FORMAT = "[{:7.2f} s] "
+TIMESTAMP_FORMAT = "[{:7.2f}] "
 
 def main():
     try:
-        last_timestamp = 0
         first_timestamp = time.perf_counter()
         print(TIMESTAMP_FORMAT.format(0) + "begin")
         for ix, line in enumerate(sys.stdin):
